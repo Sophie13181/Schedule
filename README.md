@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Schedule</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            width: 100%;
+            height: 100%;
             background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
             text-align: center;
+            overflow-x: hidden;
         }
         table {
             width: 60%;
@@ -60,7 +68,7 @@
         </tr>
         <tr>
             <td>8:50 AM</td>
-            <td>DO my homework</td>
+            <td>Do my homework</td>
         </tr>
         <tr>
             <td>12:30 PM</td>
@@ -68,7 +76,7 @@
         </tr>
         <tr class="highlight">
             <td>2:00 PM</td>
-            <td>Go for  walk with my dog</td>
+            <td>Go for a walk with my dog</td>
         </tr>
         <tr>
             <td>6:00 PM</td>
